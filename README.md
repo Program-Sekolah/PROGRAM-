@@ -50,3 +50,91 @@ while pilihan!=0:
     print("8.Menghitung keliling lingkaran")
     print("9.Menghitung luas jajar genjang")
     print("10.Menghitung keliling jajar genjang")
+    
+pilihan=int(input("masukkan pilihan Anda"))
+    print('')
+    print('')
+    if pilihan==1:
+        print("luas bujur sangkar")
+        print('')
+        s=int(input("masukkan sisi:"))
+        print("luas bujur sangkar adalah:", luas_bujur_sangkar(s))
+        print('')
+        
+    elif pilihan==2:
+        print("keliling bujur sangkar")
+        print('')
+        s=int(input("masukkan sisi:"))
+        print("keliling bujur sangkar adalah:", keliling_bujur_sangkar(s))
+        print('')
+        
+    
+    elif pilihan==3:
+        print("luas persegi panjang")
+        print('')
+        p=int(input("masukkan panjang:"))
+        l=int(input("masukkan lebar:"))
+        print("luas persegi panjang adalah:", luas_persegi_panjang(p,l))
+        print('')
+        print('')
+        
+    elif pilihan==4:
+        print("keliling persegi panjang")
+        print('')
+        p=int(input("masukkan panjang:"))
+        l=int(input("masukkan lebar:"))
+        print("keliling persegi panjang adalah:", keliling_persegi_panjang(p,l))
+        print('')
+        print('')
+        
+    elif pilihan==5:
+        print("luas segitiga")
+        print('')
+        a=int(input("masukkan alas:"))
+        t=int(input("masukkan tinggi:"))
+        print("luas segitiga adalah:", luas_segitiga(a,t))
+        print('')
+        print('')
+        
+    elif pilihan==6:
+        print("keliling segitiga")
+        print('')
+        s=int(input("masukkan sisi:"))
+        print("keliling segitiga adalah:", keliling_segitiga(s))
+        print('')
+        
+    elif pilihan==7:
+        print("luas lingkaran")
+        print('')
+        r=int(input("masukkan jari-jari:"))
+        print("luas lingkaran adalah:", luas_lingkaran(r))
+        print('')
+        
+    elif pilihan==8:
+        print("keliling lingkaran")
+        print('')
+        r=int(input("masukkan jari-jari:"))
+        print("keliling lingkaran adalah:", keliling_lingkaran(r))
+        print('')
+        
+    elif pilihan==9:
+        print("luas jajar genjang")
+        print('')
+        a=int(input("masukkan alas:"))
+        t=int(input("masukkan tinggi:"))
+        print("luas jajar genjang adalah:", luas_jajar_genjang(a,t))
+        print('')
+        print('')
+        
+    elif pilihan==10:
+        print("keliling jajar genjang")
+        print('')
+        a=int(input("masukkan sisi a:"))
+        b=int(input("masukkan sisi b:"))
+        print("luas jajar genjang adalah:", keliling_jajar_genjang(a,b))
+        print('')
+        print('')
+        
+    else:
+        print("input yang Anda masukkan salah")
+        print('')
