@@ -1,5 +1,5 @@
-# PROGRAM
-#PROGRAM PEMBELAJARAN MATEMATIKA MAHASISWA 
+#PROGRAM PEMBELAJARAN MATEMATIKA MAHASISWA
+
 #MEMASUKAN DATA DIRI
 input("Nama :")
 input("Kelas : ")
@@ -50,17 +50,7 @@ while pilihan!=0:
     print("8.Menghitung keliling lingkaran")
     print("9.Menghitung luas jajar genjang")
     print("10.Menghitung keliling jajar genjang")
-    
-pilihan=int(input("masukkan pilihan Anda"))
-    print('')
-    print('')
-    if pilihan==1:
-        print("luas bujur sangkar")
-        print('')
-        s=int(input("masukkan sisi:"))
-        print("luas bujur sangkar adalah:", luas_bujur_sangkar(s))
-        print('')
-        
+
     elif pilihan==2:
         print("keliling bujur sangkar")
         print('')
