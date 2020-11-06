@@ -1,16 +1,17 @@
-#PROGRAM PEMBELAJARAN MATEMATIKA MAHASISWA
+# PROGRAM
+#PEMBELAJARAN MATEMATIKA MAHASISWA
 
-#MEMASUKAN DATA DIRI
-input("Nama :")
-input("Kelas : ")
-input("Prodi :")
-print("Selamat Mengerjakan!")
+#MEMASUKKAN DATA DIRI
+input("Nama : ")
+input("Prodi : ")
+input("Institusi : ")
+print("Selamat Mengerjakan!!!")
 
-#SOAL SOAL MATEMATIKA
-def luas_persegi(s):
+#RUMUS-RUMUS MATEMATIKA
+def luas_bujur_sangkar(s):
     luas=s*s
     return luas
-def keliling_persegi(s):
+def keliling_bujur_sangkar(s):
     keliling=4*s
     return keliling
 def luas_persegi_panjang(p,l):
@@ -22,8 +23,8 @@ def keliling_persegi_panjang(p,l):
 def luas_segitiga(a,t):
     luas=0.5*a*t
     return luas
-def keliling_segitiga(a,b,c):
-    keliling=a+b+c
+def keliling_segitiga(s):
+    keliling=3*s
     return keliling
 def luas_lingkaran(r):
     luas=3.14*r*r
@@ -40,17 +41,27 @@ def keliling_jajar_genjang(a,b):
 
 pilihan=1
 while pilihan!=0:
-    print("1.Menghitung luas persegi")
-    print("2.Menghitung keliling persegi")
-    print("3.Menghitung luas persegi panjang")
-    print("4.Menghitung keliling persegi panjang")
-    print("5.Menghitung luas segitiga")
-    print("6.Menghitung keliling segitiga")
-    print("7.Menghitung luas lingkaran")
-    print("8.Menghitung keliling lingkaran")
-    print("9.Menghitung luas jajar genjang")
-    print("10.Menghitung keliling jajar genjang")
-
+    print("1. Menghitung luas bujur sangkar")
+    print("2. Menghitung keliling bujur sangkar")
+    print("3. Menghitung luas persegi panjang")
+    print("4. Menghitung keliling persegi panjang")
+    print("5. Menghitung luas segitiga")
+    print("6. Menghitung keliling segitiga")
+    print("7. Menghitung luas lingkaran")
+    print("8. Menghitung keliling lingkaran")
+    print("9. Menghitung luas jajar genjang")
+    print("10. Menghitung keliling jajar genjang")
+    
+pilihan=int(input("masukkan pilihan Anda"))
+    print('')
+    print('')
+    if pilihan==1:
+        print("luas bujur sangkar")
+        print('')
+        s=int(input("masukkan sisi:"))
+        print("luas bujur sangkar adalah:", luas_bujur_sangkar(s))
+        print('')
+        
     elif pilihan==2:
         print("keliling bujur sangkar")
         print('')
